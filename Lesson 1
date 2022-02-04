@@ -1,0 +1,150 @@
+#The first lesson
+# "hello" is in string and should be written inside of double quotes and string is data type
+# in python double quote and single quote '' have no difference, they are same things
+print("hello")
+print('salam')
+# print is a function to show something in console
+
+# numbers
+print(123) # it is integer number
+print(23.5) ## it is float number 
+print("123") ## it is string not number
+#boolean type and it is logic type
+# True - positive meaning, False- negative meaning
+# note: , comma  : colon  ""  double quotes  '' single quotes
+# )-bracket, {}- curly bracket,[]-square bracket
+
+
+my_name = "Sharafat"
+print(my_name)
+# my_name is variable and I can write anything for give a name to variable 
+# 'Sharafat' is string and it is value
+#I use snake method to give a name to variable
+
+
+number1= 24
+print(number1)
+
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+print(my_name)
+
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+
+number1=37
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+print(number1)
+# sum of numbers - matematically addition
+a=21
+b=5
+print(a+b)
+
+c=57
+d=104
+sum= c+d
+print(sum)
+
+num1=34.1
+num2=45.5
+num= num1+num2
+print(num)
+
+number1=73
+number2=12.7
+sum= number1+number2
+print(sum)
+
+print(12 + 43.2)
+
+# concatination
+a= 'how are'
+b= " you"
+c= a+b
+print(c)
+
+a= 'exer'
+b='cise'
+print(a+b)
+# ! We cannot add string to number, it will show TypeError
+# print('hello' + 23)
+
+# Important points to write names of variables:
+# 1) beginning with number is not possible like 1num- false
+# 2) you cannot write like num-1
+# 3)don't use space like num one
+# 4)you cannot use capitalized letters when naming of varibles
+
+
+# snake case
+first_number= 134
+print(first_number)
+
+# print is built-in function
+# use type function to give information about variables
+print(type(first_number))
+print(type(a))
+print(type(number2))
+print(type(True))
+
+# >, <, >= , <=, == in question model
+print(3>2)
+print(3>=2)
+print(3<=2)
+print(3<2)
+print(3==3)
+print(3!=2)
+print('my' > 'one')
+print('my' < 'one')
+print('two' == 'one')
+
+my_string = 'it is my book'
+print(my_string)
+
+a= 'it is'
+b= ' my '
+c='book'
+print(a+b+c)
+# escaping in strings
+string_1 = "My favorite writer is 'Jack London'"
+print(string_1)
+
+#string_1 = 'My favorite writer is 'Jack London"
+#print(string_1)      turn error
+
+string_1 = 'My favorite writer is "Jack London"'
+print(string_1)
+
+string_2 ="name"
+print("My" + " " + string_2)  # I use space inside of double quote
+print("My " +  string_2)
+
+string_3= "The book \"Hello Mr John\""
+print(string_3)
+
+
+
